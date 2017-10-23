@@ -1,7 +1,7 @@
 import json
 
 def main():
-    with open('demographics.json') as demographics_data:
+    with open('county_demographics.json') as demographics_data:
         counties = json.load(demographics_data)
     print(alphabetically_first_county(counties))
     print(county_most_under_18(counties))
