@@ -6,7 +6,7 @@ def main():
     print(alphabetically_first_county(counties))
     print(county_most_under_18(counties))
     print(percent_most_under_18(counties))
-    print(most_under_18(counties))
+    print(lowest_median_income(counties))
     print(state_with_most_counties(counties))
 
 def alphabetically_first_county(counties):
@@ -19,8 +19,12 @@ def county_most_under_18(counties):
     
 def percent_most_under_18(counties):
     """Return the highest percent of under 18 year olds."""
-
     
+
+def lowest_median_income(counties):
+    """Return a name of a county with the lowest median household income"""    
+    
+
 def state_with_most_counties(counties):
     """Return a state that has the most counties."""
     #Make a dictionary that has a key for each state and the values keep track of the number of counties in each state
