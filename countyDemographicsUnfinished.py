@@ -14,15 +14,11 @@ def alphabetically_first_county(counties):
 
 
 def county_most_under_18(counties):
-    """Return the name and state of a county ("<county name>, <state>") with the highest percent of under 18 year olds."""
+    """Return the name a county with the highest percent of under 18 year olds."""
 
     
 def percent_most_under_18(counties):
     """Return the highest percent of under 18 year olds."""
-
-    
-def most_under_18(counties):
-    """Return a list with the name and state of a county ("<county name>, <state>") and the percent of under 18 year olds for a county with the highest percent of under 18 year olds."""
 
     
 def state_with_most_counties(counties):
