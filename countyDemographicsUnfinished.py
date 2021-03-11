@@ -21,7 +21,7 @@ def percent_most_under_18(counties):
     
 
 def county_most_under_18(counties):
-    """Return the name a county with the highest percent of under 18 year olds."""
+    """Return the NAME of a county with the highest percent of under 18 year olds."""
     
     
 def lowest_median_income(counties):
@@ -31,7 +31,8 @@ def lowest_median_income(counties):
 def high_income_counties(counties):
     """Return a LIST of the counties with a median household income over $90,000."""
 
-    
+
+#To earn higher than a 3, complete one or both of the functions below
 def state_with_most_counties(counties):
     """Return a state that has the most counties."""
     #1. Make a dictionary that has a key for each state and the values keep track of the number of counties in each state
